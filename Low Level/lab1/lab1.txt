@@ -1,0 +1,31 @@
+Q1: Screenshot attached
+
+Q2: 
+	Basic Unix Commands:
+	cat: outputs the contents of a file to stdout
+	more
+	more: expanded version of cat looks like
+	cp: copy file
+	mv: move file (also used for renaming)
+	rm: delete/remove file
+	ls: list contents of current director -A flag lists hidden files (.files)
+	mkdir: makes a directory with $1 being directory name
+	cd: change directory
+	pwd: Print working directory, outputs current dir to stdout
+	rmdir: removes directory (I think dir has to be empty if no flag is used)
+	whoami: gives user info/client(user?)name? whatever comes before the @
+
+Q3: Screenshot attached
+
+Q4: Screenshot attached (I run linux normally so I am familiar with the unix commands so I just made arbitrary aliases)
+
+Q5:
+	a: cal, cal 4, cal 52, cal 1752, cal 1952, cal 2004, cal 2005
+	b: It works fine as 2004 shows a 29th day of February
+	c: 366 days. I did not see the actual number of results on the google page but over ten pages of the results. The Gregorian calendar is the calendar that is used most commonly now, it includes leap years. It is named after Pope Gregory XIIII as a modification of the Julian calendar. URL:"https://en.wikipedia.org/wiki/Gregorian_calendar"
+
+Q6: Screenshot attached
+
+Q7: 3, Screenshot attached
+
+Q8: bash and tcsh are both enabled, tsch only shows the hostname/name of server but I think they are the same thing. 
