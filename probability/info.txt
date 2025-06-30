@@ -1,0 +1,4 @@
+ID: Math 3031 Probability Theory I
+Professor: Wei-Shih Yang
+Room: Wachman 15
+Meetings: MWF 11:00-11:50

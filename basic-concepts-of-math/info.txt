@@ -1,0 +1,6 @@
+ID: MATH 2111 Basic Concepts of Math
+Professor: Thomas Goller (tur97489@temple.edu)
+Room: Wachman 109
+Meetings: MWF 12:00-01:10
+
+

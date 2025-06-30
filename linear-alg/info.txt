@@ -1,0 +1,4 @@
+ID: MATH 2101 Linear Algebra
+Professor: Daniel Szyld
+Room: Wachman 406
+Meetings: TT 11:00-12:20 
