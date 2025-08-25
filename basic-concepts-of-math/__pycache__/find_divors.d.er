@@ -1,0 +1,4 @@
+##[pylyzer] failed /home/nate/Classes/basic-concepts-of-math/find_divors.py 1752002003 554
+.is_perfect: (divisors: global::Iterable(Never), n: Obj) -> {False}
+.main: () -> NoneType
+

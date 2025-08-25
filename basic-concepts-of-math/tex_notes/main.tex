@@ -1,0 +1,323 @@
+\documentclass{article}
+
+\usepackage{amsfonts} % Common number sets using \mathbb 
+\usepackage{amsthm} % theorems
+\usepackage{amsmath} % \implies
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{bookmark} % used for having pdf bookmarks
+
+\title{Nate's Basic Concepts Notes}
+\author{Nate Harris}
+
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}[section]
+
+\theoremstyle{definition}
+\newtheorem{dfn}[thm]{Definition}
+\newtheorem{stmt}[thm]{Statement}
+\newtheorem{exmp}[thm]{Example}
+
+\AfterEndEnvironment{thm}{\noindent\ignorespaces}
+\AfterEndEnvironment{dfn}{\noindent\ignorespaces}
+\AfterEndEnvironment{exmp}{\noindent\ignorespaces}
+
+\begin{document}
+\maketitle{}
+\newpage
+\tableofcontents{}
+\newpage
+
+\section*{Chapter 1}
+\addcontentsline{toc}{section}{Chapter 1}
+
+We're starting at the 3rd section of the chapter... first 2 just kinda tell you
+why we're doing this and to have fun! And also to be organized and write proofs in
+full sentences that are easily readable and hard to misinterpret.
+\setcounter{section}{3}
+\section*{Definitions}
+\addcontentsline{toc}{subsection}{Definitions}
+
+Making definitions requires that the language is interpretable in only one way.
+The basic understandings later definitions will be built upon are... 
+We know how to add, subtract, multiply and the algebraic properties related.
+We also understand \textgreater, \textless, \underline{\textless}, \underline{\textgreater}
+\\[\baselineskip]
+\noindent We also define integers here as:
+\begin{center}
+    $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}$.
+\end{center}
+\begin{dfn} \textbf{Even Numbers}
+    An integer \textit{a} is even if it is divisible by 2.
+\end{dfn}
+
+This definition is a little confusing as we haven't defined what it means to 
+be divisible by something.
+
+\begin{dfn} \textbf{Divisible}
+An integer \textit{a} is divisible by \textit{b} if there is an integer $c$
+    such that $bc = a$. If this is true we say $b$ divides $a$, $b$ is a factor of
+    $a$ or $b$ is a divisor of $a$. The notation of this is $b|a$.
+\end{dfn}
+
+\begin{exmp} \textbf{Is 12 divisible by 4?}
+    Yes! 4|12! We can find a c of 3 which satisfies the definition. But... is 13 divisible
+    by 4? No... as no integer c can be found that satisfies the definition.
+\end{exmp}
+
+Now we have 2 valid definitions as 3.2 ensures all terms used in 3.1 are part of
+the expected understanding.
+\begin{dfn}\textbf{Odd}
+An integer $a$ is odd if there exists some integer $b$ such that $2b + 1 = a $ 
+\end{dfn}
+\begin{dfn}\textbf{Prime} 
+    An integer $p$ is prime if $p < 1$ and the only positive dividers of $p$ are
+    $p$ and $1$.
+\end{dfn}
+    
+A little note attached to this is a discussion on why 1 is not prime. And it kind
+of boils down to that it is just how the math community established and understands prime
+numbers. If you wanted a prime number definition to include one, you would have to
+put a word like \textit{relaxed} or something in front of \textit{prime}.
+
+Also there is mention of a prime factorization, which is breaking down the number into
+factors that are all prime. i.e. $12 = 1\times2\times2\times3$
+\begin{dfn}\textbf{Composite}
+    An integer $a$ is considered composite if there is a positive integer $b$ s.t.
+    $1 < b < a$ and $b|a$.
+\end{dfn}
+
+It is impossible for a prime number to be composite as the only factors of a prime
+number $p$ are 1 and $p$ which does not satisfy the inequality in the composite
+definition
+
+
+\section*{Examples}
+\addcontentsline{toc}{subsection}{Examples}
+The examples here were done in my blue notebook. Just a bit easier
+An important thing from them was the textbooks definition of the set of natural
+numbers.
+\\[\baselineskip ]
+The set of Natural numbers can be defined as:
+\begin{center}
+$\mathbb{N} = \{0,1,2,3,...\}.$
+\end{center}
+Another important set defined here as well is the set of rational numbers ($\mathbb{Q}$).
+\\[\baselineskip]
+A rational number is a number that can be represented by two integers $a/b$ where
+$b \not= 0$ which is denoted by $\mathbb{Q}$.
+
+One is also told to define a \textit{perfect square}:
+\begin{dfn} \textbf{Perfect Square}
+   An integer $p$ can be a perfect square if there is an integer $x$ s.t. $x \cdot x = p$
+   This operation of multiplying an integer $x$ by itself can also be expressed as $x^2$
+   We say $x$ 
+\end{dfn}
+
+Also one is asked to define a square root.
+\begin{dfn}\textbf{Square Root of a Number}
+   A natural number $a$ is the square root of natural number $b$ if $a^2 = b$. This 
+   can also be denoted as $a = \sqrt{b}$
+\end{dfn}
+
+Asked to define a perimeter.
+\begin{dfn}\textbf{Perimeter of Polygon}
+    The perimeter $P$ of a polygon $p$ is the summation of the lengths of the sides of 
+    this polygon $p$.
+\end{dfn}
+\begin{dfn}\textbf{Between 2 Points}
+    Suppose points on the plane $A$,$B$ and $C$ are points on a plane. We say that $C$ is between $A$ and
+    $B$ provided that a straight line segment constructed between points $A$ and $B$ also contains $C$. 
+\end{dfn}
+
+\begin{dfn}\textbf{Collinear}
+    Points on the plane $A$,$B$ and $C$ are collinear if there is some arrangement of these points such that 
+    one of the points is between the other two.
+\end{dfn}
+\begin{dfn}\textbf{Midpoint}
+    Points on the plane $A$,$B$ and $C$ are collinear. $C$ is between $A$ and $B$. $C$ is the midpoint
+    if the distances between points $A$ and $C$ and $B$ and $C$ are the same.
+\end{dfn}
+\setcounter{section}{4}
+\setcounter{thm}{0}
+\pagebreak
+\section*{Theorem}
+\addcontentsline{toc}{subsection}{Theorem}
+\subsection*{Definition of a Theorem}
+A theorem is a declarative statement in math that is 
+supported by a proof
+\subsubsection*{Definition of a Proof}
+A proof is basically a mathematical essay with a conclusion
+that shows something is true.
+\\[\baselineskip]
+There are three kinds of declarative statements in math,
+\begin{itemize}
+    \item{\textbf{Theorem}: something that is proven to be true}
+    \item{\textbf{Conjecture}: something that has yet to or cannot be proven}
+    \item{\textbf{Mistakes}: statements that just aren't true. 1+1=4, or the idea
+        of a geocentric model of the solar system}
+\end{itemize}
+
+A side note here, monitor your language when writing proofs! Don't write \textit{nonsense!}
+\subsubsection*{Truth in Math}
+An example of a statement that is not strictly true enough for Mathematical standards is
+the statement that an object dropped near the surface of the earth accelerates at $9.8m/s^2$.
+\textit{Near} is not a clear enough term and 9.8 isn't precisely accurate. Even
+if \textit{near} is defined as for example: ``within 100 meters'' it will vary.
+
+
+Regardless, this statement is true enough for most uses. Though, in mathematics one
+deals in universal truth, something that must always be true in all cases and for this to
+be the case mathematics doesn't deal in real world truth.
+
+Here is an example of a theorem we all know...
+\begin{thm}\textbf{Pythagorean}
+    If $a$ and $b$ are lengths of the legs of a right triangle and $c$ is the 
+    length of the hypotenuse: 
+    \begin{center}
+        $a^2 + b^2 = c^2$
+    \end{center}
+\end{thm}
+This is true in all cases. This can be proven which will be done later.
+\subsubsection*{If-Then Contraction}
+Mathematical language follows different rules than common English.
+The most important example of this is the If-Then statement construction.
+Many theorems can be expressed in the format ``If $A$, then $B$''. For example:
+
+\begin{center}
+    The sum of two even integers is even 
+\end{center}
+becomes:
+
+\begin{center}
+    \textbf{If} $x$ and $y$ are even integers \textbf{then} $x + y$ is even. 
+\end{center}
+In mathematics the use of if-then only promises one outcome. For example the earlier
+example only says that if $x$ and $y$ are even integers then $x + y$ is even. It
+doesn't say that if $x$ and $y$ are not even integers then $x+y$ is not even.
+The only condition that is promised is that if \textbf{A} is true \textbf{B} is also
+true.
+\bigbreak
+
+
+\noindent This table shows what outcomes an if-then statement asserts
+
+
+\begin{center}
+\begin{tabular}{l|l||l}
+    A & B & \\
+    \hline
+    True & True & Possible\\
+    True & False & Not Possible\\
+    False & True & Possible\\
+    False & False & Possible\\
+\end{tabular}
+\end{center}
+
+Alternate wordings for If \textit{A} then \textit{B}:
+\begin{itemize}
+    \item``\textit{A} implies \textit{B}'' or ``\textit{B}
+        implies \textit{A}''
+    \item ``Whenever \textit{A}, we have \textit{B}''
+    \item \textit{A} is sufficient for \textit{B}
+    \item $A \implies B$
+    \item $A \impliedby B$
+\end{itemize}
+\subsubsection*{If and Only If}
+Some theorems can be expressed in the form If $A$ then $B$ and If $B$ then $A$.
+For example:
+\begin{center}
+    If an integer $x$ is even, then $x+1$ is odd and if $x+1$ is odd, then $x$ is even
+\end{center}
+This can be expressed shorter in If and Only If format.
+\begin{center}
+    An integer $x$ is even, if and only if $x+1$ is odd.
+\end{center}
+
+Here is a truth table that shows what If and Only If statements assert:
+
+\begin{center}
+\begin{tabular}{l|l||l}
+    A & B & \\
+    \hline
+    True & True & Possible\\
+    True & False & Not Possible\\
+    False & True & Not Possible\\
+    False & False & Possible\\
+
+\end{tabular}
+\end{center}
+
+If And Only If is often abbreviated to ``iff''. It is also said that $A$ and $B$
+are ``Equivalent''.
+The symbol to denote this is $\iff$
+
+\subsubsection*{And, Or and Not}
+And, Or, and Not are also given specific meaning in proof writing:
+These meanings can be shown using a truth table
+\begin{center}
+   \begin{tabular}{l|l||l}
+       $A$ & $B$ & $A$ and $B$\\
+       \hline
+       True & True & True\\
+       True & False & False\\
+       False & True & False\\
+       False & False & False\\
+   \end{tabular}
+
+   \begin{tabular}{l||l}
+       $A$ & not $A$\\
+       \hline
+       True & False\\
+       False & True\\
+   \end{tabular}
+\end{center}
+
+``And'' and ``Not'' are more similar to their English counterparts in use than
+``Or''. Where the mathematical ``Or'' differentiates is in its acceptance of both.
+If I say: ``I want ice cream or cookies'' it is not expected to see me wolfing both
+down like a freaking hog.
+
+\begin{center}
+    \begin{tabular}{l|l||l}
+        $A$ & $B$ & $A$ or $B$\\
+        \hline
+        True & True & True\\
+        True & False & True\\
+        False & True & True\\
+        False & False & False\\
+    \end{tabular}
+\end{center}
+
+Its like the || operator in C! Makes sense as I assume mathematical structure of
+language influenced programming. 
+    
+\subsubsection*{Levels to This Splish}
+Not all true mathematical statements deserve the prestige of being called a ``Theorem''.
+$3+9=12$ isn't that special. Here are the alternative words used:
+\begin{itemize}
+    \item\textbf{Result:} Exudes modesty, can be significant or not. Both accepted
+    \item\textbf{Fact:} Minor, $1+1=2$
+    \item\textbf{Proposition:} A little more important than a fact
+    \item\textbf{Lemma:} A smaller theorem used to build a larger proof.
+    \item\textbf{Corollary:} A teeny little proof that is just an expansion on
+        a previously proven theorem.
+    \item\textbf{Claim:} Like a lemma. Used to build/organize a larger proof. Can be
+        specific to the context of the enclosing proof.
+\end{itemize}
+
+\subsubsection*{Vacuous Truth}
+A statement in which $A$ or $B$ is just freaking impossible.
+\begin{stmt}
+    \textbf{Vacuous:} If an integer is both a perfect square and a prime, then its negative 
+\end{stmt}
+While this statement is not useful as there is no possible number for which to apply it is 
+still considered true. This is because no example disproves it. Vacuous is true but useless.
+
+\newpage
+\section*{Chapter 2}
+\addcontentsline{toc}{section}{Chapter 2}
+\end{document}
+
