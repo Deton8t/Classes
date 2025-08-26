@@ -1,7 +1,7 @@
 ID: CIS 3207 Intro to Systems Programming and Operating Systems
 Professor: Gene Kwatny
 Room:   
-    Beury 160 (main) 
+    Beury 164 (main) 
     Bio Life 137 (Lab)
 Meetings:
     TT 12:30-01:50 (main)
