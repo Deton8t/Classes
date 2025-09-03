@@ -1,0 +1,6 @@
+[submodule "systems-and-os/labs/Project_0_F25"]
+	path = systems-and-os/labs/Project_0_F25
+	url = https://github.com/Nate-Y-Harris/Project_0_F25
+[submodule "systems-and-os/labs/project-1-f25-Nate-Y-Harris"]
+	path = systems-and-os/labs/project-1-f25-Nate-Y-Harris
+	url = https://github.com/CIS-3207-F25/project-1-f25-Nate-Y-Harris
