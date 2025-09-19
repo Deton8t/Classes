@@ -4,3 +4,6 @@
 [submodule "systems-and-os/labs/project-1-f25-Nate-Y-Harris"]
 	path = systems-and-os/labs/project-1-f25-Nate-Y-Harris
 	url = https://github.com/CIS-3207-F25/project-1-f25-Nate-Y-Harris
+[submodule "systems-and-os/labs/project-2-f25-Nate-Y-Harris"]
+	path = systems-and-os/labs/project-2-f25-Nate-Y-Harris
+	url = https://github.com/CIS-3207-F25/project-2-f25-Nate-Y-Harris

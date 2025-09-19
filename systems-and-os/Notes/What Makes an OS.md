@@ -31,5 +31,15 @@
             * make necessary changes
         * exec(char* file) -> int:
             * replace the current data and code with whats in the new file 
-        
+    **Process Status Word (PSW)**
+    * Contains important information for cpu function
+    * Determines whether or not it can be interrupted (interrupt enable control bit)
+    * as well as bits related to last executed instruction like whether or not 
+    the last output was positive
+
+    **TRAP/Supervisor Calls**
+    * The user cannot access the hardware of a machine directly among other things
+    * Regardless programs may need to access these parts of the machine
+    * This is done through a TRAP call and TRAP handler which allows for the program
+    * to communicate with the hardware/system through API calls
 
